@@ -1,39 +1,40 @@
 <p align="center">
-  <a href="https://hcmus.edu.vn//" title="Trường Đại học Khoa Học Tự Nhiên " style="border: none;">
-    <img src="https://fetel.hcmus.edu.vn/wp-content/uploads/2022/09/logo-fetel.png" alt="rường Đại học Khoa Học Tự Nhiên | University of Science">
+  <a href="https://hcmus.edu.vn//" title="University of Science" style="border: none;">
+    <img src="https://fetel.hcmus.edu.vn/wp-content/uploads/2022/09/logo-fetel.png" alt="University of Science">
   </a>
 </p>
 
-# Lập trình nhúng trên board STM32F103C8T6 Blue Pill ARM Cortex-M3
+# Embedded Programming on STM32F103C8T6 Blue Pill ARM Cortex-M3 Board
 
-## Giới thiệu
+## Introduction
 
-* Đây là bài tập được sử dụng làm đồ án cuối kì cho môn Vi điều khiển.
-* Bài tập được xây dựng trên ngôn ngữ C và ngôn ngữ mô tả phần cứng HDL.
-* Sử dụng STM32Cube IDE để mapping các chân với board mạch thực tế . 
-* Thu thập các yếu tố môi trường như nhiệt độ , độ ẩm sử dụng module DHT11 . Truyền nhận dữ liệu sử dụng module SIM900 tập lệnh AT đính kèm .
-* Tạo một project cloude trên ThingSpeak.
-### Giảng viên hướng dẫn
+* This project is used as a final assignment for the Microcontroller course.
+* The project is developed using C language and Hardware Description Language (HDL).
+* STM32Cube IDE is utilized for mapping pins with the actual circuit board.
+* Environmental factors such as temperature and humidity are collected using the DHT11 module. Data transmission is performed using the SIM900 module with attached AT commands.
+* A cloud project is created on ThingSpeak.
 
-* TS. Lê Đức Hùng- Khoa Điện Tử - Viễn Thông , Trường Đại Học Khoa Học Tự Nhiên - ĐHQGHCM
+### Supervisor
 
-### Sinh viên thực hiện
+* Dr. Le Duc Hung - Faculty of Electronics and Telecommunications, University of Science - VNU-HCM
 
-|**STT**|**MSSV**|  **Họ và tên**  |       **Email**      |
-|-------|--------|-----------------|----------------------|
-|   1   |21207077|Tran Thien Phuc  |21207077@hcmus.edu.vn |
+### Students Involved
 
-## Chạy thử project
+|**No**|**Student ID**|  **Full Name**  |       **Email**      |
+|------|---------------|------------------|----------------------|
+|  1   |21207077       |Tran Thien Phuc   |21207077@hcmus.edu.vn |
 
-### Yêu cầu để thực thi project
+## Project Execution
+
+### Requirements to Execute the Project
 
 * STM32 Cube IDE
-* Thiết kế board mạch thực tế 
+* Design of the actual circuit board
 
-### Bước 1: Lập trình nhúng cho bo mạch   
+### Step 1: Embedded Programming for the Board   
 
-* Code các chức năng của board , kiểm thử qua monitor và cloud của ThingSpeak.
+* Code the functionalities of the board and test through the ThingSpeak monitor and cloud.
 
-### Bước 2: Thực thi chương trình
+### Step 2: Execute the Program
 
-* Nạp và nhúng code xuống board mạch . 
+* Upload and embed the code onto the circuit board.
